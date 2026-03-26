@@ -2,33 +2,26 @@
 //  PUBLIC ART COLLECTIONS — API KEYS
 //  publicartcollections.org
 // ============================================================
-//  Only 3 keys needed. Everything else is already working.
-//  Replace the placeholders below, save, re-upload to GitHub.
+//  Keep this file private — do not share publicly.
 // ============================================================
 
 const PAC_API_KEYS = {
 
   // EUROPEANA — 50 million works (Louvre, Prado, V&A, British Library...)
-  // Get free key: https://pro.europeana.eu/page/get-api
-  // Without key: 100 searches/day.  With key: 10,000/day.
   EUROPEANA: 'lindiscomel',
 
-  // SMITHSONIAN — 2.8 million objects, 19 museums
-  // Get free key: https://api.data.gov/signup/
-  // (NOT api.si.edu — the key registration is at api.data.gov)
-  SMITHSONIAN: 'AXWbdMwHM3mCBAabPUH98Gsg6lMNsIh8qx1kElgq',
+  // SMITHSONIAN — paste your key from api.data.gov/signup/ when you have it
+  SMITHSONIAN: 'YOUR_SMITHSONIAN_KEY_HERE',
 
-  // HARVARD ART MUSEUMS — 250,000+ works, full gigapixel IIIF
-  // Get free key: https://harvardartmuseums.org/collections/api
-  // Harvard is DISABLED until a key is added here.
-  HARVARD: 'd682a152-4b0b-4a83-b8f5-f9aa86d81372',
+  // HARVARD ART MUSEUMS — paste your key when you have it
+  HARVARD: 'YOUR_HARVARD_KEY_HERE',
 
-  // ✅ NO KEY NEEDED — already fully working:
-  // Rijksmuseum (800k+) · Met Museum (470k+) · Art Inst. Chicago (100k+)
-  // Cleveland (61k+) · National Gallery (56k+) · Getty (88k+) · V&A (1.2M+)
-  //
-  // RIGHTS: All results are filtered to CC0 / Public Domain only.
-  // Non-commercial and restricted works are automatically excluded.
+  // PRINTFUL — print on demand fulfillment
+  PRINTFUL: 'GR1X4IZglbpempVhoY51QjFfPgM2igJeHEh2SY2l',
+
+  // ✅ NO KEY NEEDED:
+  // Rijksmuseum · Met Museum · Art Inst. Chicago
+  // Cleveland · National Gallery · Getty · V&A
 
 };
 
